@@ -1,0 +1,303 @@
+2014-10-07 15:28:39 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-07 15:28:39 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/apple-touch-icon.png
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-09 10:58:39 Error: [MissingControllerException] Controller class TimeTableController could not be found.
+Exception Attributes: array (
+  'class' => 'TimeTableController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/TimeTable/
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-09 10:59:06 Error: [MissingActionException] Action TimeTableController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'TimeTableController',
+  'action' => 'index',
+)
+Request URL: /gorin2014/TimeTable/
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-09 11:01:46 Error: [MissingViewException] View file "/Applications/AMPPS/www/gorin2014/app/View/TimeTable/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/AMPPS/www/gorin2014/app/View/TimeTable/index.ctp',
+)
+Request URL: /gorin2014/TimeTable/
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-09 11:02:31 Error: [MissingViewException] View file "/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp',
+)
+Request URL: /gorin2014/TimeTable/view
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-09 11:02:35 Error: [MissingViewException] View file "/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp',
+)
+Request URL: /gorin2014/TimeTable/view/
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-09 11:02:40 Error: [MissingActionException] Action TimeTableController::view.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'TimeTableController',
+  'action' => 'view.html',
+)
+Request URL: /gorin2014/TimeTable/view.html
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-09 11:03:20 Error: [MissingViewException] View file "/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp',
+)
+Request URL: /gorin2014/TimeTable/view/
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-09 11:03:23 Error: [MissingViewException] View file "/Applications/AMPPS/www/gorin2014/app/View/TimeTable/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/AMPPS/www/gorin2014/app/View/TimeTable/index.ctp',
+)
+Request URL: /gorin2014/TimeTable/
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-09 11:19:19 Error: [MissingActionException] Action TimeTableController::viwe() could not be found.
+Exception Attributes: array (
+  'controller' => 'TimeTableController',
+  'action' => 'viwe',
+)
+Request URL: /gorin2014/TimeTable/viwe/a:1/b:2
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-09 11:19:26 Error: [MissingViewException] View file "/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp',
+)
+Request URL: /gorin2014/TimeTable/view/a:1/b:2
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-09 11:19:33 Error: [MissingViewException] View file "/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/AMPPS/www/gorin2014/app/View/TimeTable/view.ctp',
+)
+Request URL: /gorin2014/TimeTable/view/a:1/b:2
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(TimeTableController), Object(CakeRequest), Object(CakeResponse))
+#4 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-10 03:25:40 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting T_VARIABLE in [/Applications/AMPPS/www/gorin2014/app/Vendor/SampleClass.php, line 10]
+2014-10-10 03:25:40 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting T_VARIABLE
+Request URL: /gorin2014/TimeTable/index/a:1/b:2
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/A...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/A...', 10, Array)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/A...', 10, Array)
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-10 03:25:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/css/cake.generic.css
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 03:25:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/img/cake.power.gif
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 03:26:01 Error: Fatal Error (1): Call to undefined method SampleClass::set() in [/Applications/AMPPS/www/gorin2014/app/Controller/TimeTableController.php, line 29]
+2014-10-10 03:26:01 Error: [FatalErrorException] Call to undefined method SampleClass::set()
+Request URL: /gorin2014/TimeTable/index/a:1/b:2
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/A...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/A...', 29, Array)
+#2 /Applications/AMPPS/www/gorin2014/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/A...', 29, Array)
+#3 /Applications/AMPPS/www/gorin2014/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-10 03:26:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/css/cake.generic.css
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 03:26:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/img/cake.power.gif
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 07:43:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /gorin2014/app/webroot/css/cake.generic.css
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-10 07:43:06 Error: [MissingActionException] Action AppController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'webroot',
+)
+Request URL: /gorin2014/app/webroot/img/cake.power.gif
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/AMPPS/www/gorin2014/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-10 07:50:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/css/cake.generic.css
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 07:50:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/img/cake.power.gif
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 07:50:53 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 07:50:53 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/apple-touch-icon.png
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 08:58:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/css/cake.generic.css
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 08:58:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/img/cake.power.gif
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 09:06:44 Error: [MissingControllerException] Controller class Apple-touch-icon-precomposed.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon-precomposed.pngController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/apple-touch-icon-precomposed.png
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 09:06:44 Error: [MissingControllerException] Controller class Apple-touch-icon.pngController could not be found.
+Exception Attributes: array (
+  'class' => 'Apple-touch-icon.pngController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/apple-touch-icon.png
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-10 09:29:20 Error: [MissingControllerException] Controller class TimetableeController could not be found.
+Exception Attributes: array (
+  'class' => 'TimetableeController',
+  'plugin' => NULL,
+)
+Request URL: /gorin2014/timetablee/
+Stack Trace:
+#0 /Applications/AMPPS/www/gorin2014/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

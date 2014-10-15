@@ -1,1 +1,0 @@
-/Applications/AMPPS/www/gorin2014/app/
